@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from 'react-dom/client';
 import {Header} from './component/Header.jsx';
 import {Home} from './pages/Home.jsx';
+import {About} from "./pages/About.jsx";
 import {BrowserRouter, Outlet, Route, Routes} from "react-router-dom";
  const HomeLayout = () => {
      return(
@@ -17,7 +18,7 @@ const Router = () => {
             <Routes>
                 <Route path='/' element={<HomeLayout/>}>
                     <Route path="/Home" element={<Home />} />
-                    {/*<Route path="/about" element={<AboutPage />} />*/}
+                    <Route path="/About" element={<About/>} />
                     {/*<Route path="/services" element={<ServicePage />} />*/}
                     {/*<Route path="/events" element={<EventsPage />} />*/}
                     {/*<Route path="/gallery" element={<GalleryPage />} />*/}
