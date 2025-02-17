@@ -4,7 +4,7 @@ import {React} from "react";
     return(
         <div>
             <p>
-                Groszek
+                Groszek_O mnie
             </p>
         </div>
     )

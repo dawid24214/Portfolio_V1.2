@@ -11,10 +11,10 @@ export const Header = () =>{
                     <li><Link to='/Home'>Strona Główna</Link></li>
                     <li><Link to="/About">O Nas</Link></li>
                     <li><Link to="/Projects">Projekty</Link></li>
-                    <li><Link to="/events">Wydarzenia</Link></li>
-                    <li><Link to="/gallery">Galeria</Link></li>
-                    <li><Link to="/contact">Kontakt</Link></li>
-                    <li><Link to="/faq">FAQ</Link></li>
+                    <li><Link to="/Portfolio">Portfolio</Link></li>
+                    {/*<li><Link to="/gallery">Galeria</Link></li>*/}
+                    {/*<li><Link to="/contact">Kontakt</Link></li>*/}
+                    {/*<li><Link to="/faq">FAQ</Link></li>*/}
                 </ul>
             </nav>
         </header>

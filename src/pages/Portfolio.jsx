@@ -1,8 +1,9 @@
 import React from "react";
-export const Projects = () =>{
+
+export const Portfolio = () =>{
     return(
         <div>
-            <p>Groszek_Project</p>
+            <p>Groszek_Portfolio</p>
         </div>
     )
 }

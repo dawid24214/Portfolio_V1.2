@@ -5,7 +5,7 @@ import '../styles/home.scss'
 export const Home = () => {
     return(
         <div>
-            <p>Groszek</p>
+            <p>Groszek_Home</p>
         </div>
     )
 }
