@@ -25,9 +25,6 @@ const Router = () => {
                     <Route path="/Projects" element={<Projects />} />
                     <Route path="/Portfolio" element={<Portfolio />} />
                     <Route path="/Contact" element={<Contact />} />
-                    {/*<Route path="/contact" element={<ContactPage />} />*/}
-                    {/*<Route path="/faq" element={<FaqPage />} />*/}
-                    {/*<Route path='/admin' element={<AdminPage/>}/>*/}
                 </Route>
             </Routes>
         </BrowserRouter>
