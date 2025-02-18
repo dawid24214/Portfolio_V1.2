@@ -13,8 +13,6 @@ export const Header = () =>{
                     <li><Link to="/Projects">Projekty</Link></li>
                     <li><Link to="/Portfolio">Portfolio</Link></li>
                     <li><Link to="/Contact">Kontakt</Link></li>
-                    {/*<li><Link to="/contact">Kontakt</Link></li>*/}
-                    {/*<li><Link to="/faq">FAQ</Link></li>*/}
                 </ul>
             </nav>
         </header>
